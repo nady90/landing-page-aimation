@@ -1,0 +1,53 @@
+#root {
+  --primary-clr: #d90416;
+  --primary-clr-darker: #d9042b;
+  --primary-clr-two: #f2aa52;
+  --clr-white: #f2f2f2;
+  --clr-indigo: #f0f7ff;
+  --text-primary: #a9a9a9;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  height: 100vh;
+  background-color: var(--clr-indigo);
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(337deg 100% 43%) 44%,
+    hsl(357deg 91% 59%) 56%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(34deg 100% 53%) 78%,
+    hsl(45deg 100% 50%) 89%,
+    hsl(55deg 100% 50%) 100%
+  );
+  background-image: linear-gradient(
+    20deg,
+    hsl(349deg 95% 69%) 0%,
+    hsl(352deg 97% 70%) 16%,
+    hsl(356deg 99% 71%) 23%,
+    hsl(359deg 100% 72%) 29%,
+    hsl(3deg 100% 72%) 34%,
+    hsl(6deg 100% 71%) 39%,
+    hsl(9deg 100% 70%) 43%,
+    hsl(12deg 100% 69%) 48%,
+    hsl(15deg 100% 69%) 52%,
+    hsl(18deg 99% 68%) 57%,
+    hsl(21deg 98% 67%) 61%,
+    hsl(23deg 96% 66%) 66%,
+    hsl(26deg 94% 66%) 71%,
+    hsl(28deg 91% 65%) 77%,
+    hsl(31deg 89% 64%) 84%,
+    hsl(33deg 86% 64%) 100%
+  );
+  z-index: -1;
+}
